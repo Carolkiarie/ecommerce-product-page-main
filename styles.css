@@ -341,7 +341,8 @@ margin: 1em 0;
   @media(min-width:650px){
     .hrr{
         display: block;
-        border: 2px solid red;
+        border: 1px solid var(--grayish-blue);
+        outline: none;
     }
     .section2{
         display: flex;
