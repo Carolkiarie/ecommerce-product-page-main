@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/1ebca1d5a7.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+  
+  <section class="section1">
+    <nav class="navbar">
+      <div class="desktop_nav">
+    <div class="icon">
+     <img src="/images/icon-menu.svg" alt="main menu" id="menu_bar">
+        <h1>Sneakers</h1>
+    </div>
+    <div class="mobile_menu">
+      <div class="close_tab">
+        <img src="/images/icon-close.svg"alt="" id="close_mobile_nav">
+      </div>
+      <div class="container_tab">
+        <li class="tab1" data-tab="1">
+         <a href="#collections" class="nav__links">Collections</a>
+         
+        </li>
+        <li class="tab1" data-tab="2">
+         <a href="#Men" class="nav__links" >Men</a>
+         
+         
+        </li>
+        <li class="tab1" data-tab="3">
+         <a href="#Women" class="nav__links">Women</a>
+        
+        </li>
+        <li class="tab1" data-tab="4">
+         <a href="#About" class="nav__links">About</a>
+        
+        </li>
+        <li class="tab1" data-tab="5">
+         <a href="#Contact" class="nav__links">Contact</a>
+         
+        </li>
+     </div>
+    </div>
+  </div>
+      
+        <div class="icon_cart">
+          <div class="icon_men">
+            <span>3</span>
+            <img src="/images/icon-cart.svg" class="main_menu_cart" alt="">
+          </div>
+          <div class="avatar_img">
+            <img src="/images/image-avatar.png" alt="" class="user_image">
+          </div>
+        </div>
+        </nav>
+        <hr class="hrr">
+        <div class="hidden_menu_item">
+          <div class="close_cart">
+            <img src="/images/icon-close.svg" alt="" id="closed">
+          </div>
+          <h3>Cart</h3>
+          <hr class="hr_cart">
+          <p class="empty_cart">Your cart is empty</p>
+          <div class="sneaker_image">
+            <img src="/images/image-product-1-thumbnail.jpg" class="stock_image" alt="">
+            <div class="sneaker_text">
+              <div class="sneaker_txt">
+                <h4>Fall Limited Edition Sneakers</h4>
+                <div class="ptag">
+                 <p><span class="spn"></span></p>
+                </div>
+               
+              </div>
+              <img src="/images/icon-delete.svg" class="delete" alt="">
+            </div>
+          </div>
+          <div class="checkout">
+            <button>Checkout</button>
+          </div>
+        
+        </div>
+   
+    
+  
+<!-- images -->
+    <section class="section2">
+      <div class="main_content">
+        <div class="next_prev">
+          <img src="/images/icon-previous.svg" alt="previous image" class="previous">
+          <img src="/images/icon-next.svg" alt="next image" class="next">
+        </div>
+        <div class="empty_content">
+          <img src="/images/image-product-1.jpg" alt="">
+        </div>
+        <div class="images_folder">
+          <div class="slide" data-slide="1">
+            <img src="/images/image-product-1.jpg" alt=""  class="image1" id="images">
+          </div>
+          <div class="slide" data-slide="2">
+            <img src="/images/image-product-2.jpg" alt=""  class="image2" id="images" >
+          </div>
+          <div class="slide" data-slide="3">
+            <img src="/images/image-product-3.jpg" class="image3" alt="" id="images">
+          </div>
+          <div class="slide" data-slide="4">
+            <img src="/images/image-product-4.jpg" alt=""  class="image4" id="images" >
+          </div>
+        </div>
+        <div class="desktop_images">
+          <div class="desk_slide">
+            <img src="/images/image-product-1-thumbnail.jpg" alt="">
+          </div>
+          <div class="desk_slide">
+            <img src="/images/image-product-2-thumbnail.jpg" alt="">
+          </div>
+          <div class="desk_slide">
+            <img src="/images/image-product-3-thumbnail.jpg" alt="">
+          </div>
+          <div class="desk_slide">
+            <img src="/images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="whole_images">
+         <img src="/images/icon-close.svg" alt="hide items" id="close">
+          <div class="solo_image">
+            <img src="/images/image-product-1.jpg" alt="" id="soloimg">
+          </div>
+          <div class="display_images">
+            <div class="desktp_slide">
+              <img src="/images/image-product-1-thumbnail.jpg" alt="" class="jpgimage">
+            </div>
+            <div class="desktp_slide">
+              <img src="/images/image-product-2-thumbnail.jpg" alt="" class="jpgimage">
+            </div>
+            <div class="desktp_slide">
+              <img src="/images/image-product-3-thumbnail.jpg" alt="" class="jpgimage">
+            </div>
+            <div class="desktp_slide">
+              <img src="/images/image-product-4-thumbnail.jpg" alt="" class="jpgimage">
+            </div>
+          </div>
+          <div class="ne_prev">
+            <img src="/images/icon-previous.svg" alt="previous image" class="previous_desktop">
+            <img src="/images/icon-next.svg" alt="next image" class="next_desktop">
+          </div>
+        </div>
+          </div>
+          
+      </div>
+      <!-- right side -->
+      
+      <div class="right_side_content">
+        <h4>SNEAKER COMPANY</h4>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring
+          a durable outer sole, they'll withstand everything the weather can offer.
+        </p>
+        <div class="prices">
+          <div class="item_price">
+            <p class="discounted_price">$125</p>
+            <span>50%</span>
+          </div>
+          <div class="full_price">$250</div>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="function_buttons">
+        <button class="counter_items">
+          <span class="counter">
+            <img src="/images/icon-minus.svg" alt="" id="minus">
+          </span>
+          <span class="number_of_item" id="item_number">0</span>
+          <span class="counter">
+            <img src="/images/icon-plus.svg" alt="" id="plus">
+          </span>
+        </button>
+        <button class="add_to_cart" id="add_to_cart">
+          <span>
+            <img src="/images/icon-cart.svg" alt="" class="ihh">
+          </span>
+          <span class="text_cart" >Add to Cart</span>
+        </button>
+      </div>
+      </div>
+    </section>
+  </section>
+  <div class="whole_page_display">
+
+  </div>
+
+  <script src="/sandbox.js"></script>
+</body>
+</html>
